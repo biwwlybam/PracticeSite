@@ -41,7 +41,7 @@ header {
     float: right;
     text-align: center;
     width: 180px;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 10px;
     color: #919191;
 }
 
@@ -187,7 +187,7 @@ a.project-button-link:hover {
     padding-top: 60px;
 }
 
-.contact-description {
+.page-description {
     color: #919191;
     font-size: 32px;
     font-weight: 100;
@@ -221,4 +221,71 @@ a.project-button-link:hover {
 
 .spacing {
     height: 100px;
+}
+
+/* About Me Page */
+.info-boxes {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-box-1 {
+    position: relative;
+    top: 80px;
+    height: 450px;
+}
+
+.aboutme-photo {
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 6px;
+    margin: 60px;
+}
+
+.aboutme-1, .aboutme-2, .aboutme-3 {
+    color: white;
+    background-color: #00000099;
+    font-weight: 100;
+}
+
+.aboutme-1 {
+    position: absolute;
+    bottom: -32px;
+    left: 200px;
+    width: 200px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.info-box-2 {
+    position: relative;
+    top: 230px;
+    height: 450px;
+}
+
+.aboutme-2 {
+    position: absolute;
+    bottom: -140px;
+    left: 10px;
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-box-3 {
+    position: relative;
+    top: 380px;
+    height: 450px;
+}
+
+.aboutme-3 {
+    position: absolute;
+    bottom: 50px;
+    left: -30px;
+    width: 320px;
+    border-radius: 6px;
+    padding: 10px;
 }
