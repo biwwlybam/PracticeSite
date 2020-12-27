@@ -6,6 +6,8 @@
         <link href="style.css" type="text/css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="navbar.js"></script>
         <title>Andrew Combs | Web Developer</title>
     </head>
     <body>
@@ -14,16 +16,22 @@
                 <a href="./index.html" class="home-button">Andrew Combs</a>
             </div>
             <div class="flex-head">
-                <div class="site-header">
-                    <a href="./aboutme.html" class="header-button">About Me</a>
+                <div id="myLinks">
+                    <div class="site-header" id="site-head-1">
+                        <a href="./aboutme.html" class="header-button">About Me</a>
+                    </div>
+                    <div class="site-header" id="site-head-2">
+                        <a href="./projects.html" class="header-button">Projects</a>
+                    </div>
+                    <div class="site-header" id="site-head-3">
+                        <a href="./contact.html" class="header-button">Contact</a>
+                    </div>
                 </div>
-                <div class="site-header">
-                    <a href="./projects.html" class="header-button">Projects</a>
-                </div>
-                <div class="site-header">
-                    <a href="./contact.html" class="header-button">Contact</a>
-                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-3x"></i>
+                </a>
             </div>
+
         </header>
         <div class="intro-picture">
             <div class="intro">
@@ -32,7 +40,7 @@
                         I'm currently the Head of Quality at a small craft brewery, on the road to becoming a web developer.
                     </p>
                     <button class="project-button">
-                        <a href="#projects" class="project-button-link">My Projects</a>
+                        <a href="./projects.html" class="project-button-link">My Projects</a>
                     </button>
             </div>
             <div class="selfie-box">
