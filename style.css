@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    background-color: #1F2025;
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+/*
+* {
+    border: 1px solid red !important;
+ }
+
+ /* Header for all pages */
+header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    height: 160px;
+    margin: 0;
+}
+
+.site-name {
+    display:inline-block;
+    font-size: 36px;
+    text-align: center;
+    max-height: 120px;
+    padding: 40px 20px 5px 40px;
+    color: white;
+    width: 30%;
+}
+
+.flex-head {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 60%;
+    float: right;
+}
+
+.site-header {
+    font-size: 32px;
+    float: right;
+    text-align: center;
+    width: 180px;
+    padding: 40px 10px 10px 10px;
+    color: #919191;
+}
+
+/* Header Link Styling */
+a.header-button {
+    text-decoration: none;
+}
+a.header-button:link {
+    color: #919191;
+}
+a.header-button:active {
+    color: white;
+}
+a.header-button:visited {
+    color: #919191;
+}
+a.header-button:hover {
+    color: white;
+}
+
+/* Home Link Styling */
+a.home-button {
+    text-decoration: none;
+}
+a.home-button:link {
+    color: white;
+}
+a.home-button:active {
+    color: #919191;
+}
+a.home-button:visited {
+    color: white;
+}
+a.home-button:hover {
+    color: #919191;
+}
+
+/* Main Page setup */
+.intro-picture {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    min-height: 520px;
+}
+
+.intro {
+    position: relative;
+    top: 50px;
+    left: 10%;
+    display: flexbox;
+    width: 35%;
+}
+
+.my-name {
+    color: white;
+    max-width: 500px;
+    font-size: 36px;
+}
+
+.brief-intro {
+    color: #919191;
+    font-size: 28px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+/* Project Button */
+.project-button {
+    background-color: #5190ED;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 32px;
+    position: relative;
+    top: 5%;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+a.project-button-link {
+    text-decoration: none;
+}
+a.project-button-link:link {
+    color: white;
+}
+a.project-button-link:active {
+    color: black;
+    font-weight: bold;
+}
+a.project-button-link:visited {
+    color: white;
+}
+a.project-button-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/* Main Page Picture */
+.selfie-box {
+    position: relative;
+    float: right;
+    right: 16%;
+    top: 80px;
+    border-radius: 6px;
+}
+
+.selfie-box::before {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 123%;
+    height: 85%;
+    border: 4px solid #080808;
+    content: '';
+    background-color: #080808;
+    border-radius: 6px;
+  }
+
+.selfie {
+    position: relative;
+    max-width: 300px;
+    max-height: 100%;
+    z-index: 100;
+    border-radius: 6px;
+}
+
+/* Contact Body */
+.page-head {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.page-title {
+    color: white;
+    font-size: 60px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.contact-description {
+    color: #919191;
+    font-size: 32px;
+    font-weight: 100;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.status-box {
+    font-size: 26px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    background-color: #3D3e4480;
+    border-radius: 6px;
+}
+
+.status {
+    color: white;
+}
+
+.available {
+    color: #5190ED;
+}
+
+.status-text {
+    color: #919191;
+    font-weight: 100;
+}
+
+.spacing {
+    height: 100px;
+}
