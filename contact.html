@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="contact-form.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <title>Andrew Combs | About Me</title>
+    </head>
+    <body>
+        <header>
+            <div class="site-name" id="Name">
+                <a href="./index.html" class="home-button">Andrew Combs</a>
+            </div>
+            <div class="flex-head">
+                <div class="site-header">
+                    <a href="./aboutme.html" class="header-button">About Me</a>
+                </div>
+                <div class="site-header">
+                    <a href="./projects.html" class="header-button">Projects</a>
+                </div>
+                <div class="site-header">
+                    <a href="./contact.html" class="header-button">Contact</a>
+                </div>
+            </div>
+        </header>
+        <div class="page-head">
+            <h1 class="page-title">Contact Me</h1>
+                <p class="contact-description">
+                    If you'd like to discuss a project, 
+                    please fill in the form below and 
+                    I'll get back to you within 1-2 days.
+                </p>
+                <div class="spacing"></div>
+                <div class="status-box">
+                    <span class="status">Status:</span>
+                    <span class="available"> Available</span>
+                    <span class="status-text"> for new projects!</span>
+                </div>
+        </div>
+        <div class="spacing"></div>
+        <div class="form-container">
+            <form class="contact-form" action="contact-form-process.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <div class="form-input">
+                        <input type="text" name="name" class="form-input-name" id="name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="form-input">
+                        <input type="text" name="email" class="form-input-email" id="email">
+                    </div>
+                </div>
+                <div class="form-group-message">
+                    <label for="message">Message</label>
+                    <div class="form-input">
+                        <textarea type="text" name="message" class="form-input-message" id="message" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="form-button">Send message</button>
+                </div>
+            </form>
+        </div>
+        <div class="spacing"></div>
+    </body>
+</html>
